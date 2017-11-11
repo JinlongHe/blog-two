@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   get 'articles/goodbye'
 
   get 'articles/new'
@@ -9,6 +10,9 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
+=======
+  resources :articles
+>>>>>>> a43a0724a4175de82bf709f44199ed61e9884264
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
